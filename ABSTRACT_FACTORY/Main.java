@@ -14,7 +14,8 @@ public class Main {
 
 
         /*
-        * Book a Sports Bike for a distance of 10 kms
+        * Book a Sports Bike for a distance of 10 km
+        //GIT
         */
         AbstractVehicleFactory bikeFactory = FactoryProvider.getVehicleFactory("Bike");
         Vehicle sportsBike = bikeFactory.getVehicle("Sports");
